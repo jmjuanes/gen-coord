@@ -1,5 +1,5 @@
 {
-  "name": "gen-coors",
+  "name": "gen-coord",
   "version": "1.0.0",
   "description": "Manage genome coordinates (Bioinformatics)",
   "main": "index.js",
