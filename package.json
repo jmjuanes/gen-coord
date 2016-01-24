@@ -1,0 +1,11 @@
+{
+  "name": "gen-coors",
+  "version": "1.0.0",
+  "description": "Manage genome coordinates (Bioinformatics)",
+  "main": "index.js",
+  "repository": {"type": "git", "url": "https://github.com/jmjuanes/gen-coord.git"},
+  "keywords": ["bioinformatics", "genomic", "coordinates", "gen-coord", "jmjuanes"],
+  "author": "Josemi Juanes <josemijuanes@gmail.com>",
+  "license": "MIT",
+  "dependencies": {}
+}
