@@ -19,16 +19,16 @@ npm install gen-coord
 
 Split a genomic coordinate and get an object with the next attributes:
 
-- `chr`: chromosome for the coordinate.
+- `chromosome`: chromosome for the coordinate.
 - `start`: start position.
 - `end`: end position.
 
 ```javascript
-//Import Genom
+//Import gen-coord
 var genCoord = require('gen-coord');
 
 //Split a coordinate string
-genCoord.Split('1:12345-67890'); // returns {chr: '1', start: 12345, end: 67890}
+genCoord.Split('1:12345-67890'); // returns { chromosome: '1', start: 12345, end: 67890 }
 ```
 
 ### Join(obj)
@@ -36,9 +36,9 @@ genCoord.Split('1:12345-67890'); // returns {chr: '1', start: 12345, end: 67890}
 Returns a new string with the genomic coordinate.
 
 ```javascript
-//Import Genom
+//Import gen-coord
 var genCoord = require('gen-coord');
 
 //Join a coordinate object
-genCoord.Join({chr: '1', start: 12345, end: 67890}); // returns '1:12345-67890'
+genCoord.Join({ chromosome: '1', start: 12345, end: 67890 }); // returns '1:12345-67890'
 ```
